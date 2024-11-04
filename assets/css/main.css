@@ -1119,11 +1119,26 @@ button
 
 #footer p
 {
-    margin-top: 2em;
+    margin-top: 3em;
+    margin-bottom: 0;
 }
 
 #footer p a
 {
     color: #fff;
     border-bottom: 1px solid #eee;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
